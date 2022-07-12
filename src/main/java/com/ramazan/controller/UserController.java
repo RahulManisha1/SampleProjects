@@ -31,7 +31,7 @@ public class UserController
 
         Integer limit = new Integer(map.get("limit").get(0));
 
-        log.debug("Received Limit value: " + limit);
+        log.debug("Received Limit valu: " + limit);
         //default if null or zero
         if (limit == null || limit == 0)
         {
